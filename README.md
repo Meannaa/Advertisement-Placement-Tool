@@ -4,38 +4,6 @@
 
 The Advertisement Placement Tool is made to help companies strategically place advertisements by identifying the most cost-effective locations. Using publicly available data from 24 major U.S. cities, the tool calculates Audience Reach, Demographic Fit Score, and Cost Efficiency Score. Users can customize inputs like age range, income, employed percentage, and budget, and the program recommends optimal locations based on these criteria. The results include a ranked list of cities, average location metrics, budget allocations, and a visual representation of cost efficiency.
 
-## Files in Repository
-
-1. **`test.py`**: The main program, implementing all features of the tool.
-2. **`demographics.json`**: Sample data json file our group did research on to create with city-specific information that will be used to assign optimal locations for the user.
-
-Each city includes the following fields:
-
-* `population`: total population of the city.
-*  `age`: average age of residents.
-*  `income`: average annual income of residents in USD.
-* `employedpopulation`: number of employed residents.
-* `ad_cost`: estimated cost (in USD) for running advertisements in the city.
-* `foottraffic`: average daily foot traffic in the city.
-
-Example:
-
-"New York City": {
-    "population": 8620000.0,
-    "age": 37.5,
-    "income": 76607.0,
-    "employedpopulation": 4100000.0,
-    "ad_cost": 13531.96,
-    "foottraffic": 4270.0
-}
-
-
-3. **`README.md`**: This file, explaining our project and examples on how to use it. 
-
-4. **`advertising_results.txt`**: Output file generated after the program runs, summarizing the top advertising locations, budget allocations, and key statistics.
-
-5. **`advertising_chart.png`**: Horizontal bar chart of the top-ranked locations based on their cost efficiency scores.
-
 ## How to Run the Program
 
 ### Install required modules/libraries
